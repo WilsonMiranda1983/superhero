@@ -82,27 +82,7 @@ $(document).ready(function(){
                         });
                 };
                   console.log('salida poderes',poderes)  
-                // let chart = new CanvasJS.Chart("grafico", {
-                    
-                //     title: {
-                //         text: `Estadísticas de Poder para ${nombre}`
-                //     },
-                //     animationEnabled: true,
-                //     animationDuration: 2000,
-                    
-                //     data: [{
-                //         type: "pie",
-                //         startAngle: 40,
-                //         toolTipContent: " {y}",
-                //         showInLegend: "true",
-                //         legendText: "{y}",
-                //         indexLabelFontSize: 16,
-                //         indexLabel: " {y}",
-                //         dataPoints: poderes
-                            
-                //     }]
-                // });
-                // chart.render();
+                
                 let chart = new CanvasJS.Chart("grafico", {
                     animationEnabled: true,
                     title: {
